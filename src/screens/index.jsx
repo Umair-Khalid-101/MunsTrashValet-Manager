@@ -1,0 +1,10 @@
+export { default as SignIn } from "./SignIn";
+export { default as GetStarted } from "./GetStarted";
+export { default as SelectProperty } from "./SelectProperty";
+export { default as Settings } from "./Settings";
+export { default as IncidentReports } from "./IncidentReports";
+export { default as ViewReport } from "./ViewReport";
+export { default as WriteUs } from "./WriteUs";
+export { default as TermsConditions } from "./TermsConditions";
+export { default as PrivacyPolicy } from "./PrivacyPolicy";
+export { default as AboutUs } from "./AboutUs";
