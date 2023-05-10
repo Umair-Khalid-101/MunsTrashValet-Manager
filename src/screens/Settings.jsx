@@ -41,7 +41,7 @@ export default function Settings() {
           .then(() => {
             setStoredCredentials(null);
             setIsLoading(false);
-            navigation.navigate("GetStarted");
+            navigation.replace("GetStarted");
           })
           .catch((error) => {
             console.log(error);

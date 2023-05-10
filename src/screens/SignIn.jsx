@@ -81,7 +81,7 @@ export default function SignIn() {
   const onSubmit = async (data) => {
     console.log(data);
     const auth = getAuth();
-    const email = data?.email;
+    const email = data?.email.toLowerCase();
     const password = data?.password;
     setIsLoading(true);
     await signInWithEmailAndPassword(auth, email, password)
@@ -103,7 +103,7 @@ export default function SignIn() {
             persistUser(User);
             if (User?.role === "manager" && User?.status === "Active") {
               // Alert.alert("Success!", "Signed In as Manager!");
-              navigation.navigate("TabNavigator");
+              navigation.replace("TabNavigator");
             } else {
               Alert.alert("Error!", "Make sure You're a Manager to Sign IN");
             }

@@ -55,7 +55,7 @@ export default function GetStarted() {
       {/* BUTTON */}
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate("SignIn")}
+        onPress={() => navigation.replace("SignIn")}
       >
         <Text style={styles.buttonText}>Get Started</Text>
       </TouchableOpacity>

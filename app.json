@@ -11,15 +11,13 @@
       "resizeMode": "contain",
       "backgroundColor": "#246BFD"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.muns.manager"
@@ -27,10 +25,6 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "extra": {
-      "eas": {
-        "projectId": "ab313f52-4a82-4cb8-8893-803de7458382"
-      }
-    }
+    "extra": {}
   }
 }
